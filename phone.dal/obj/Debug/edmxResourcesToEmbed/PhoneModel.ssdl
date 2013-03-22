@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="PhoneDBModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="PhoneDBModelStoreContainer">
+    <EntitySet Name="Phone" EntityType="PhoneDBModel.Store.Phone" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="PhoneCD" EntityType="PhoneDBModel.Store.PhoneCD" store:Type="Tables" Schema="dbo" />
+    <AssociationSet Name="FK_Phone_PhoneCD" Association="PhoneDBModel.Store.FK_Phone_PhoneCD">
+      <End Role="PhoneCD" EntitySet="PhoneCD" />
+      <End Role="Phone" EntitySet="Phone" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Phone">
+    <Key>
+      <PropertyRef Name="PHONE_ID" />
+    </Key>
+    <Property Name="PHONE_ID" Type="numeric" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="PHONE_CD" Type="varchar" Nullable="false" MaxLength="2" />
+    <Property Name="PHONE_TX" Type="numeric" Nullable="false" Precision="10" />
+    <Property Name="CREATE_DT" Type="datetime" Nullable="false" />
+    <Property Name="MOD_DT" Type="datetime" Nullable="false" />
+    <Property Name="APPLICANT_ID" Type="numeric" Nullable="false" />
+  </EntityType>
+  <EntityType Name="PhoneCD">
+    <Key>
+      <PropertyRef Name="PHONE_CD" />
+    </Key>
+    <Property Name="PHONE_CD" Type="varchar" Nullable="false" MaxLength="2" />
+    <Property Name="PHONE_TX" Type="varchar" Nullable="false" MaxLength="255" />
+    <Property Name="MOD_DT" Type="datetime" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_Phone_PhoneCD">
+    <End Role="PhoneCD" Type="PhoneDBModel.Store.PhoneCD" Multiplicity="1" />
+    <End Role="Phone" Type="PhoneDBModel.Store.Phone" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PhoneCD">
+        <PropertyRef Name="PHONE_CD" />
+      </Principal>
+      <Dependent Role="Phone">
+        <PropertyRef Name="PHONE_CD" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

@@ -1,0 +1,20 @@
+C:\Users\Wes\Documents\Visual Studio 2012\Projects\PhoneList\phone.core\obj\Debug\phone.core.csprojResolveAssemblyReference.cache
+C:\Users\Wes\Documents\Visual Studio 2012\Projects\PhoneList\phone.core\bin\Debug\phone.core.dll.config
+C:\Users\Wes\Documents\Visual Studio 2012\Projects\PhoneList\phone.core\bin\Debug\phone.core.dll
+C:\Users\Wes\Documents\Visual Studio 2012\Projects\PhoneList\phone.core\bin\Debug\phone.core.pdb
+C:\Users\Wes\Documents\Visual Studio 2012\Projects\PhoneList\phone.core\bin\Debug\phone.dal.dll
+C:\Users\Wes\Documents\Visual Studio 2012\Projects\PhoneList\phone.core\bin\Debug\EntityFramework.dll
+C:\Users\Wes\Documents\Visual Studio 2012\Projects\PhoneList\phone.core\bin\Debug\phone.dal.pdb
+C:\Users\Wes\Documents\Visual Studio 2012\Projects\PhoneList\phone.core\bin\Debug\EntityFramework.xml
+C:\Users\Wes\Documents\Visual Studio 2012\Projects\PhoneList\phone.core\obj\Debug\phone.core.dll
+C:\Users\Wes\Documents\Visual Studio 2012\Projects\PhoneList\phone.core\obj\Debug\phone.core.pdb
+C:\Users\Wes\projects\phonelist\phonelist-v3\phone.core\bin\Debug\phone.core.dll.config
+C:\Users\Wes\projects\phonelist\phonelist-v3\phone.core\bin\Debug\phone.core.dll
+C:\Users\Wes\projects\phonelist\phonelist-v3\phone.core\bin\Debug\phone.core.pdb
+C:\Users\Wes\projects\phonelist\phonelist-v3\phone.core\bin\Debug\phone.dal.dll
+C:\Users\Wes\projects\phonelist\phonelist-v3\phone.core\bin\Debug\EntityFramework.dll
+C:\Users\Wes\projects\phonelist\phonelist-v3\phone.core\bin\Debug\phone.dal.pdb
+C:\Users\Wes\projects\phonelist\phonelist-v3\phone.core\bin\Debug\EntityFramework.xml
+C:\Users\Wes\projects\phonelist\phonelist-v3\phone.core\obj\Debug\phone.core.csprojResolveAssemblyReference.cache
+C:\Users\Wes\projects\phonelist\phonelist-v3\phone.core\obj\Debug\phone.core.dll
+C:\Users\Wes\projects\phonelist\phonelist-v3\phone.core\obj\Debug\phone.core.pdb

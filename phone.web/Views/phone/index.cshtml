@@ -1,0 +1,71 @@
+﻿@model IEnumerable<phone.core.Models.PhoneModel>
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>View</title>
+</head>
+<body>
+    <p>
+        @Html.ActionLink("Create New", "Create")
+    </p>
+    <table>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.phoneId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.phoneCd)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.phoneNumber)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.createDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.lastModifiedDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.applicantId)
+            </th>
+            <th></th>
+        </tr>
+    
+    @foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.phoneId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.phoneCd)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.phoneNumber)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.createDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.lastModifiedDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.applicantId)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id=item.phoneId  }) |
+                @Html.ActionLink("Details", "Details", new { id=item.phoneId }) |
+                @Html.ActionLink("Delete", "Delete", new { id=item.phoneId })
+            </td>
+        </tr>
+    }
+    
+    </table>
+</body>
+</html>

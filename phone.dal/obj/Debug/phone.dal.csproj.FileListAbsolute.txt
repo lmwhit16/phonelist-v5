@@ -1,0 +1,22 @@
+c:\users\wes\documents\visual studio 2012\Projects\phone.dal\phone.dal\bin\Debug\phone.dal.dll.config
+c:\users\wes\documents\visual studio 2012\Projects\phone.dal\phone.dal\bin\Debug\phone.dal.dll
+c:\users\wes\documents\visual studio 2012\Projects\phone.dal\phone.dal\bin\Debug\phone.dal.pdb
+c:\users\wes\documents\visual studio 2012\Projects\phone.dal\phone.dal\bin\Debug\EntityFramework.dll
+c:\users\wes\documents\visual studio 2012\Projects\phone.dal\phone.dal\bin\Debug\EntityFramework.xml
+c:\users\wes\documents\visual studio 2012\Projects\phone.dal\phone.dal\obj\Debug\phone.dal.dll
+c:\users\wes\documents\visual studio 2012\Projects\phone.dal\phone.dal\obj\Debug\phone.dal.pdb
+c:\users\wes\documents\visual studio 2012\Projects\phone.dal\phone.dal\obj\Debug\phone.dal.csprojResolveAssemblyReference.cache
+C:\Users\Wes\Documents\Visual Studio 2012\Projects\PhoneList\phone.dal\bin\Debug\phone.dal.dll.config
+C:\Users\Wes\Documents\Visual Studio 2012\Projects\PhoneList\phone.dal\bin\Debug\phone.dal.dll
+C:\Users\Wes\Documents\Visual Studio 2012\Projects\PhoneList\phone.dal\bin\Debug\phone.dal.pdb
+C:\Users\Wes\Documents\Visual Studio 2012\Projects\PhoneList\phone.dal\bin\Debug\EntityFramework.dll
+C:\Users\Wes\Documents\Visual Studio 2012\Projects\PhoneList\phone.dal\bin\Debug\EntityFramework.xml
+C:\Users\Wes\Documents\Visual Studio 2012\Projects\PhoneList\phone.dal\obj\Debug\phone.dal.dll
+C:\Users\Wes\Documents\Visual Studio 2012\Projects\PhoneList\phone.dal\obj\Debug\phone.dal.pdb
+C:\Users\Wes\projects\phonelist\phonelist-v3\phone.dal\bin\Debug\phone.dal.dll.config
+C:\Users\Wes\projects\phonelist\phonelist-v3\phone.dal\bin\Debug\phone.dal.dll
+C:\Users\Wes\projects\phonelist\phonelist-v3\phone.dal\bin\Debug\phone.dal.pdb
+C:\Users\Wes\projects\phonelist\phonelist-v3\phone.dal\bin\Debug\EntityFramework.dll
+C:\Users\Wes\projects\phonelist\phonelist-v3\phone.dal\bin\Debug\EntityFramework.xml
+C:\Users\Wes\projects\phonelist\phonelist-v3\phone.dal\obj\Debug\phone.dal.dll
+C:\Users\Wes\projects\phonelist\phonelist-v3\phone.dal\obj\Debug\phone.dal.pdb

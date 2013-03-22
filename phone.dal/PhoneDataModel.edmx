@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="PhoneDBModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityContainer Name="PhoneDBModelStoreContainer">
+          <EntitySet Name="Phone" EntityType="PhoneDBModel.Store.Phone" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="PhoneCD" EntityType="PhoneDBModel.Store.PhoneCD" store:Type="Tables" Schema="dbo" />
+          <AssociationSet Name="FK_Phone_PhoneCD" Association="PhoneDBModel.Store.FK_Phone_PhoneCD">
+            <End Role="PhoneCD" EntitySet="PhoneCD" />
+            <End Role="Phone" EntitySet="Phone" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="Phone">
+          <Key>
+            <PropertyRef Name="PHONE_ID" />
+          </Key>
+          <Property Name="PHONE_ID" Type="numeric" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="PHONE_CD" Type="varchar" Nullable="false" MaxLength="2" />
+          <Property Name="PHONE_TX" Type="numeric" Nullable="false" Precision="10" />
+          <Property Name="CREATE_DT" Type="datetime" Nullable="false" />
+          <Property Name="MOD_DT" Type="datetime" Nullable="false" />
+          <Property Name="APPLICANT_ID" Type="numeric" Nullable="false" />
+        </EntityType>
+        <EntityType Name="PhoneCD">
+          <Key>
+            <PropertyRef Name="PHONE_CD" />
+          </Key>
+          <Property Name="PHONE_CD" Type="varchar" Nullable="false" MaxLength="2" />
+          <Property Name="PHONE_TX" Type="varchar" Nullable="false" MaxLength="255" />
+          <Property Name="MOD_DT" Type="datetime" Nullable="false" />
+        </EntityType>
+        <Association Name="FK_Phone_PhoneCD">
+          <End Role="PhoneCD" Type="PhoneDBModel.Store.PhoneCD" Multiplicity="1" />
+          <End Role="Phone" Type="PhoneDBModel.Store.Phone" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="PhoneCD">
+              <PropertyRef Name="PHONE_CD" />
+            </Principal>
+            <Dependent Role="Phone">
+              <PropertyRef Name="PHONE_CD" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="PhoneDBModel" Alias="Self" p1:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:p1="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityContainer Name="PhoneDBEntities" p1:LazyLoadingEnabled="true">
+          <EntitySet Name="Phones" EntityType="PhoneDBModel.Phone" />
+          <EntitySet Name="PhoneCDs" EntityType="PhoneDBModel.PhoneCD" />
+          <AssociationSet Name="FK_Phone_PhoneCD" Association="PhoneDBModel.FK_Phone_PhoneCD">
+            <End Role="PhoneCD" EntitySet="PhoneCDs" />
+            <End Role="Phone" EntitySet="Phones" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="Phone">
+          <Key>
+            <PropertyRef Name="PHONE_ID" />
+          </Key>
+          <Property Name="PHONE_ID" Type="Decimal" Nullable="false" Precision="18" Scale="0" />
+          <Property Name="PHONE_CD" Type="String" Nullable="false" MaxLength="2" Unicode="false" FixedLength="false" />
+          <Property Name="PHONE_TX" Type="Decimal" Nullable="false" Precision="10" Scale="0" />
+          <Property Name="CREATE_DT" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="MOD_DT" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="APPLICANT_ID" Type="Decimal" Nullable="false" Precision="18" Scale="0" />
+          <NavigationProperty Name="PhoneCD" Relationship="PhoneDBModel.FK_Phone_PhoneCD" FromRole="Phone" ToRole="PhoneCD" />
+        </EntityType>
+        <EntityType Name="PhoneCD">
+          <Key>
+            <PropertyRef Name="PHONE_CD" />
+          </Key>
+          <Property Name="PHONE_CD" Type="String" Nullable="false" MaxLength="2" Unicode="false" FixedLength="false" />
+          <Property Name="PHONE_TX" Type="String" Nullable="false" MaxLength="255" Unicode="false" FixedLength="false" />
+          <Property Name="MOD_DT" Type="DateTime" Nullable="false" Precision="3" />
+          <NavigationProperty Name="Phones" Relationship="PhoneDBModel.FK_Phone_PhoneCD" FromRole="PhoneCD" ToRole="Phone" />
+        </EntityType>
+        <Association Name="FK_Phone_PhoneCD">
+          <End Role="PhoneCD" Type="PhoneDBModel.PhoneCD" Multiplicity="1" />
+          <End Role="Phone" Type="PhoneDBModel.Phone" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="PhoneCD">
+              <PropertyRef Name="PHONE_CD" />
+            </Principal>
+            <Dependent Role="Phone">
+              <PropertyRef Name="PHONE_CD" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="PhoneDBModelStoreContainer" CdmEntityContainer="PhoneDBEntities">
+          <EntitySetMapping Name="Phones">
+            <EntityTypeMapping TypeName="PhoneDBModel.Phone">
+              <MappingFragment StoreEntitySet="Phone">
+                <ScalarProperty Name="PHONE_ID" ColumnName="PHONE_ID" />
+                <ScalarProperty Name="PHONE_CD" ColumnName="PHONE_CD" />
+                <ScalarProperty Name="PHONE_TX" ColumnName="PHONE_TX" />
+                <ScalarProperty Name="CREATE_DT" ColumnName="CREATE_DT" />
+                <ScalarProperty Name="MOD_DT" ColumnName="MOD_DT" />
+                <ScalarProperty Name="APPLICANT_ID" ColumnName="APPLICANT_ID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="PhoneCDs">
+            <EntityTypeMapping TypeName="PhoneDBModel.PhoneCD">
+              <MappingFragment StoreEntitySet="PhoneCD">
+                <ScalarProperty Name="PHONE_CD" ColumnName="PHONE_CD" />
+                <ScalarProperty Name="PHONE_TX" ColumnName="PHONE_TX" />
+                <ScalarProperty Name="MOD_DT" ColumnName="MOD_DT" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="True" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="True" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

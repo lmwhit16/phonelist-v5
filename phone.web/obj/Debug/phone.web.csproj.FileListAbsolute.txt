@@ -1,0 +1,64 @@
+C:\Users\Wes\Documents\Visual Studio 2012\Projects\PhoneList\phone.web\bin\phone.web.dll
+C:\Users\Wes\Documents\Visual Studio 2012\Projects\PhoneList\phone.web\bin\phone.web.pdb
+C:\Users\Wes\Documents\Visual Studio 2012\Projects\PhoneList\phone.web\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Wes\Documents\Visual Studio 2012\Projects\PhoneList\phone.web\bin\Newtonsoft.Json.dll
+C:\Users\Wes\Documents\Visual Studio 2012\Projects\PhoneList\phone.web\bin\System.Net.Http.Formatting.dll
+C:\Users\Wes\Documents\Visual Studio 2012\Projects\PhoneList\phone.web\bin\System.Web.Helpers.dll
+C:\Users\Wes\Documents\Visual Studio 2012\Projects\PhoneList\phone.web\bin\System.Web.Http.dll
+C:\Users\Wes\Documents\Visual Studio 2012\Projects\PhoneList\phone.web\bin\System.Web.Http.WebHost.dll
+C:\Users\Wes\Documents\Visual Studio 2012\Projects\PhoneList\phone.web\bin\System.Web.Mvc.dll
+C:\Users\Wes\Documents\Visual Studio 2012\Projects\PhoneList\phone.web\bin\System.Web.Razor.dll
+C:\Users\Wes\Documents\Visual Studio 2012\Projects\PhoneList\phone.web\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Wes\Documents\Visual Studio 2012\Projects\PhoneList\phone.web\bin\System.Web.WebPages.dll
+C:\Users\Wes\Documents\Visual Studio 2012\Projects\PhoneList\phone.web\bin\System.Web.WebPages.Razor.dll
+C:\Users\Wes\Documents\Visual Studio 2012\Projects\PhoneList\phone.web\bin\Newtonsoft.Json.xml
+C:\Users\Wes\Documents\Visual Studio 2012\Projects\PhoneList\phone.web\bin\System.Net.Http.Formatting.xml
+C:\Users\Wes\Documents\Visual Studio 2012\Projects\PhoneList\phone.web\bin\System.Web.Helpers.xml
+C:\Users\Wes\Documents\Visual Studio 2012\Projects\PhoneList\phone.web\bin\System.Web.Http.xml
+C:\Users\Wes\Documents\Visual Studio 2012\Projects\PhoneList\phone.web\bin\System.Web.Http.WebHost.xml
+C:\Users\Wes\Documents\Visual Studio 2012\Projects\PhoneList\phone.web\bin\System.Web.Mvc.xml
+C:\Users\Wes\Documents\Visual Studio 2012\Projects\PhoneList\phone.web\bin\System.Web.Razor.xml
+C:\Users\Wes\Documents\Visual Studio 2012\Projects\PhoneList\phone.web\bin\System.Web.WebPages.xml
+C:\Users\Wes\Documents\Visual Studio 2012\Projects\PhoneList\phone.web\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Wes\Documents\Visual Studio 2012\Projects\PhoneList\phone.web\bin\System.Web.WebPages.Razor.xml
+C:\Users\Wes\Documents\Visual Studio 2012\Projects\PhoneList\phone.web\obj\Debug\phone.web.dll
+C:\Users\Wes\Documents\Visual Studio 2012\Projects\PhoneList\phone.web\obj\Debug\phone.web.pdb
+C:\Users\Wes\Documents\Visual Studio 2012\Projects\PhoneList\phone.web\obj\Debug\phone.web.csprojResolveAssemblyReference.cache
+C:\Users\Wes\Documents\Visual Studio 2012\Projects\PhoneList\phone.web\bin\phone.core.dll
+C:\Users\Wes\Documents\Visual Studio 2012\Projects\PhoneList\phone.web\bin\phone.dal.dll
+C:\Users\Wes\Documents\Visual Studio 2012\Projects\PhoneList\phone.web\bin\EntityFramework.dll
+C:\Users\Wes\Documents\Visual Studio 2012\Projects\PhoneList\phone.web\bin\phone.core.pdb
+C:\Users\Wes\Documents\Visual Studio 2012\Projects\PhoneList\phone.web\bin\phone.dal.pdb
+C:\Users\Wes\Documents\Visual Studio 2012\Projects\PhoneList\phone.web\bin\EntityFramework.xml
+C:\Users\Wes\projects\phonelist\phonelist-v3\phone.web\bin\phone.web.dll
+C:\Users\Wes\projects\phonelist\phonelist-v3\phone.web\bin\phone.web.pdb
+C:\Users\Wes\projects\phonelist\phonelist-v3\phone.web\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Wes\projects\phonelist\phonelist-v3\phone.web\bin\Newtonsoft.Json.dll
+C:\Users\Wes\projects\phonelist\phonelist-v3\phone.web\bin\phone.core.dll
+C:\Users\Wes\projects\phonelist\phonelist-v3\phone.web\bin\System.Net.Http.Formatting.dll
+C:\Users\Wes\projects\phonelist\phonelist-v3\phone.web\bin\System.Web.Helpers.dll
+C:\Users\Wes\projects\phonelist\phonelist-v3\phone.web\bin\System.Web.Http.dll
+C:\Users\Wes\projects\phonelist\phonelist-v3\phone.web\bin\System.Web.Http.WebHost.dll
+C:\Users\Wes\projects\phonelist\phonelist-v3\phone.web\bin\System.Web.Mvc.dll
+C:\Users\Wes\projects\phonelist\phonelist-v3\phone.web\bin\System.Web.Razor.dll
+C:\Users\Wes\projects\phonelist\phonelist-v3\phone.web\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Wes\projects\phonelist\phonelist-v3\phone.web\bin\System.Web.WebPages.dll
+C:\Users\Wes\projects\phonelist\phonelist-v3\phone.web\bin\System.Web.WebPages.Razor.dll
+C:\Users\Wes\projects\phonelist\phonelist-v3\phone.web\bin\phone.dal.dll
+C:\Users\Wes\projects\phonelist\phonelist-v3\phone.web\bin\EntityFramework.dll
+C:\Users\Wes\projects\phonelist\phonelist-v3\phone.web\bin\phone.core.pdb
+C:\Users\Wes\projects\phonelist\phonelist-v3\phone.web\bin\Newtonsoft.Json.xml
+C:\Users\Wes\projects\phonelist\phonelist-v3\phone.web\bin\System.Net.Http.Formatting.xml
+C:\Users\Wes\projects\phonelist\phonelist-v3\phone.web\bin\System.Web.Helpers.xml
+C:\Users\Wes\projects\phonelist\phonelist-v3\phone.web\bin\System.Web.Http.xml
+C:\Users\Wes\projects\phonelist\phonelist-v3\phone.web\bin\System.Web.Http.WebHost.xml
+C:\Users\Wes\projects\phonelist\phonelist-v3\phone.web\bin\System.Web.Mvc.xml
+C:\Users\Wes\projects\phonelist\phonelist-v3\phone.web\bin\System.Web.Razor.xml
+C:\Users\Wes\projects\phonelist\phonelist-v3\phone.web\bin\System.Web.WebPages.xml
+C:\Users\Wes\projects\phonelist\phonelist-v3\phone.web\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Wes\projects\phonelist\phonelist-v3\phone.web\bin\System.Web.WebPages.Razor.xml
+C:\Users\Wes\projects\phonelist\phonelist-v3\phone.web\bin\phone.dal.pdb
+C:\Users\Wes\projects\phonelist\phonelist-v3\phone.web\bin\EntityFramework.xml
+C:\Users\Wes\projects\phonelist\phonelist-v3\phone.web\obj\Debug\phone.web.csprojResolveAssemblyReference.cache
+C:\Users\Wes\projects\phonelist\phonelist-v3\phone.web\obj\Debug\phone.web.dll
+C:\Users\Wes\projects\phonelist\phonelist-v3\phone.web\obj\Debug\phone.web.pdb

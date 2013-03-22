@@ -1,0 +1,65 @@
+﻿@model phone.core.Models.PhoneModel
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>details</title>
+</head>
+<body>
+    <fieldset>
+        <legend>PhoneModel</legend>
+    
+        <div class="display-label">
+             @Html.DisplayNameFor(model => model.phoneId)
+        </div>
+        <div class="display-field">
+            @Html.DisplayFor(model => model.phoneId)
+        </div>
+    
+        <div class="display-label">
+             @Html.DisplayNameFor(model => model.phoneCd)
+        </div>
+        <div class="display-field">
+            @Html.DisplayFor(model => model.phoneCd)
+        </div>
+    
+        <div class="display-label">
+             @Html.DisplayNameFor(model => model.phoneNumber)
+        </div>
+        <div class="display-field">
+            @Html.DisplayFor(model => model.phoneNumber)
+        </div>
+    
+        <div class="display-label">
+             @Html.DisplayNameFor(model => model.createDate)
+        </div>
+        <div class="display-field">
+            @Html.DisplayFor(model => model.createDate)
+        </div>
+    
+        <div class="display-label">
+             @Html.DisplayNameFor(model => model.lastModifiedDate)
+        </div>
+        <div class="display-field">
+            @Html.DisplayFor(model => model.lastModifiedDate)
+        </div>
+    
+        <div class="display-label">
+             @Html.DisplayNameFor(model => model.applicantId)
+        </div>
+        <div class="display-field">
+            @Html.DisplayFor(model => model.applicantId)
+        </div>
+    </fieldset>
+    <p>
+        @Html.ActionLink("Edit", "Edit", new { /* id=Model.PrimaryKey */ }) |
+        @Html.ActionLink("Back to List", "Index")
+    </p>
+</body>
+</html>

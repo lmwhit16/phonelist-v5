@@ -1,0 +1,34 @@
+c:\Users\Wes\documents\visual studio 2012\Projects\phone.dal\phone.test\bin\Debug\phone.test.dll.config
+c:\Users\Wes\documents\visual studio 2012\Projects\phone.dal\phone.test\bin\Debug\phone.test.dll
+c:\Users\Wes\documents\visual studio 2012\Projects\phone.dal\phone.test\bin\Debug\phone.test.pdb
+c:\Users\Wes\documents\visual studio 2012\Projects\phone.dal\phone.test\bin\Debug\phone.dal.dll
+c:\Users\Wes\documents\visual studio 2012\Projects\phone.dal\phone.test\bin\Debug\EntityFramework.dll
+c:\Users\Wes\documents\visual studio 2012\Projects\phone.dal\phone.test\bin\Debug\phone.dal.pdb
+c:\Users\Wes\documents\visual studio 2012\Projects\phone.dal\phone.test\bin\Debug\EntityFramework.xml
+c:\Users\Wes\documents\visual studio 2012\Projects\phone.dal\phone.test\obj\Debug\phone.test.csprojResolveAssemblyReference.cache
+c:\Users\Wes\documents\visual studio 2012\Projects\phone.dal\phone.test\obj\Debug\phone.test.dll
+c:\Users\Wes\documents\visual studio 2012\Projects\phone.dal\phone.test\obj\Debug\phone.test.pdb
+C:\Users\Wes\Documents\Visual Studio 2012\Projects\PhoneList\phone.test\obj\Debug\phone.test.csprojResolveAssemblyReference.cache
+C:\Users\Wes\Documents\Visual Studio 2012\Projects\PhoneList\phone.test\bin\Debug\phone.test.dll.config
+C:\Users\Wes\Documents\Visual Studio 2012\Projects\PhoneList\phone.test\bin\Debug\phone.test.dll
+C:\Users\Wes\Documents\Visual Studio 2012\Projects\PhoneList\phone.test\bin\Debug\phone.test.pdb
+C:\Users\Wes\Documents\Visual Studio 2012\Projects\PhoneList\phone.test\bin\Debug\phone.core.dll
+C:\Users\Wes\Documents\Visual Studio 2012\Projects\PhoneList\phone.test\bin\Debug\phone.dal.dll
+C:\Users\Wes\Documents\Visual Studio 2012\Projects\PhoneList\phone.test\bin\Debug\EntityFramework.dll
+C:\Users\Wes\Documents\Visual Studio 2012\Projects\PhoneList\phone.test\bin\Debug\phone.core.pdb
+C:\Users\Wes\Documents\Visual Studio 2012\Projects\PhoneList\phone.test\bin\Debug\phone.dal.pdb
+C:\Users\Wes\Documents\Visual Studio 2012\Projects\PhoneList\phone.test\bin\Debug\EntityFramework.xml
+C:\Users\Wes\Documents\Visual Studio 2012\Projects\PhoneList\phone.test\obj\Debug\phone.test.dll
+C:\Users\Wes\Documents\Visual Studio 2012\Projects\PhoneList\phone.test\obj\Debug\phone.test.pdb
+C:\Users\Wes\projects\phonelist\phonelist-v3\phone.test\bin\Debug\phone.test.dll.config
+C:\Users\Wes\projects\phonelist\phonelist-v3\phone.test\bin\Debug\phone.test.dll
+C:\Users\Wes\projects\phonelist\phonelist-v3\phone.test\bin\Debug\phone.test.pdb
+C:\Users\Wes\projects\phonelist\phonelist-v3\phone.test\bin\Debug\phone.core.dll
+C:\Users\Wes\projects\phonelist\phonelist-v3\phone.test\bin\Debug\phone.dal.dll
+C:\Users\Wes\projects\phonelist\phonelist-v3\phone.test\bin\Debug\EntityFramework.dll
+C:\Users\Wes\projects\phonelist\phonelist-v3\phone.test\bin\Debug\phone.core.pdb
+C:\Users\Wes\projects\phonelist\phonelist-v3\phone.test\bin\Debug\phone.dal.pdb
+C:\Users\Wes\projects\phonelist\phonelist-v3\phone.test\bin\Debug\EntityFramework.xml
+C:\Users\Wes\projects\phonelist\phonelist-v3\phone.test\obj\Debug\phone.test.csprojResolveAssemblyReference.cache
+C:\Users\Wes\projects\phonelist\phonelist-v3\phone.test\obj\Debug\phone.test.dll
+C:\Users\Wes\projects\phonelist\phonelist-v3\phone.test\obj\Debug\phone.test.pdb

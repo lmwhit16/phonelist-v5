@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="PhoneDBModelStoreContainer" CdmEntityContainer="PhoneDBEntities">
+    <EntitySetMapping Name="Phones">
+      <EntityTypeMapping TypeName="PhoneDBModel.Phone">
+        <MappingFragment StoreEntitySet="Phone">
+          <ScalarProperty Name="PHONE_ID" ColumnName="PHONE_ID" />
+          <ScalarProperty Name="PHONE_CD" ColumnName="PHONE_CD" />
+          <ScalarProperty Name="PHONE_TX" ColumnName="PHONE_TX" />
+          <ScalarProperty Name="CREATE_DT" ColumnName="CREATE_DT" />
+          <ScalarProperty Name="MOD_DT" ColumnName="MOD_DT" />
+          <ScalarProperty Name="APPLICANT_ID" ColumnName="APPLICANT_ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PhoneCDs">
+      <EntityTypeMapping TypeName="PhoneDBModel.PhoneCD">
+        <MappingFragment StoreEntitySet="PhoneCD">
+          <ScalarProperty Name="PHONE_CD" ColumnName="PHONE_CD" />
+          <ScalarProperty Name="PHONE_TX" ColumnName="PHONE_TX" />
+          <ScalarProperty Name="MOD_DT" ColumnName="MOD_DT" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
